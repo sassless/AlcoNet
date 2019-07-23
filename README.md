@@ -42,7 +42,7 @@
 
 Для сохранения модели по ходу обучения используется `ModelCheckpoint`. Он сохраняет обученную модель после каждой эпохи по пути, указанному в параметре `save_path` с соответствующим номером эпохи. Если параметр `save_best_only` равен **True**, то сохраняются только лучшие эпохи обучения, при этом критерии оценки моделей хранятся в параметрах `monitor` и `mode`. Подробнее про настройку и использование `ModelCheckpoint` можно прочитать в [документации keras](https://keras.io/callbacks/#modelcheckpoint).
 
-Обученные на 50 и 100 эпохах модели с текущими параметрами можно найти [здесь](https://drive.google.com/drive/folders/1gKp1nNvVuzI7tuP1aNEwwsHs9b0zhHMA?usp=sharing)
+Обученные на 50 и 100 эпохах модели с текущими параметрами можно найти [здесь](https://drive.google.com/drive/folders/1gKp1nNvVuzI7tuP1aNEwwsHs9b0zhHMA?usp=sharing).
 
 
 ## Тестирование
