@@ -5,6 +5,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 
 
 # Set training params:
+model_name = 'AlcoNet.h5' # path to not trained model
 epochs = 100
 batch_size = 64 # orig paper trained all networks with batch_size = 128
 steps_per_epoch = 34 # typically should be equal to ceil(number_of_samples / batch_size)
@@ -67,6 +68,7 @@ callbacks = [checkpoint]
 
 # Model training -->
 
+model = load_model(model_name)
 model.fit_generator(
 	train_generator,
 	steps_per_epoch = steps_per_epoch,

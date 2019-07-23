@@ -8,7 +8,7 @@ from decoder import decode_and_show
 
 
 # Testing params:
-model_name = 'AlcoNet_trained100.h5'
+model_name = 'AlcoNet_trained100.h5' # path to trained model
 # Default paths:
 folder_path = './test/'
 image_path = './test.jpg'
